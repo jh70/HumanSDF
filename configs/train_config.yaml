@@ -1,0 +1,19 @@
+# 训练参数
+train:
+  batch_size: 6
+  lr: 1e-4
+  epochs: 10
+  weight_decay: 1e-4
+  beta_pc: 0.1
+  beta_attr: 0.01
+
+# 模型参数
+model:
+  attr_dim: 4
+  latent_dim: 256
+  num_points: 2048
+
+# 数据参数
+data:
+  mat_dir: "data/raw_mats"
+  max_points: 8192
